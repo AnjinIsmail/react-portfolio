@@ -44,6 +44,12 @@ const Portfolio = ({ name }) => {
             github: "https://github.com/AnjinIsmail/tech-blog",
             deployed: "https://whispering-chamber-05188.herokuapp.com/"
         },
+        {
+            name: 'SuperHeroSmash',
+            description: 'A social/ entertainment application based around Super Heros. Vote for your favorite superhero in each matchup. The winner gets a vote added to their total and stays to battle the next opponent. When you are done in the Battleground, see how your choices are doing on the Leaderboard or head to the Discussion area to make your case!',
+            github: "https://github.com/melissabarrerafarias/project-3",
+            deployed: "https://superherosmash.herokuapp.com/"
+        }
 
     ]);
 

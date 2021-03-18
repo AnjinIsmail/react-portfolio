@@ -1,6 +1,6 @@
 import React from 'react';
 import myResume from "../../assets/profile/Resume_AnjiIsmail.pdf";
-
+import index from "../../../src/index.css";
 
 function Nav(props) {
     const {

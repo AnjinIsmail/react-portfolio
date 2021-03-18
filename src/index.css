@@ -107,14 +107,14 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
+/* 
 header {
   background: var(--dark);
   height: 200px;
   padding: 100px;
   justify-content: center;
   font-size: xx-large;
-}
+} */
 
 header a {
   color: var(--light);
