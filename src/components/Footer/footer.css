@@ -1,0 +1,16 @@
+.footer {
+    margin-top:350px;
+    background-color: black;
+    padding: 30px
+
+}
+
+.icons{
+   padding: 20px;
+
+}
+
+.github, .twitter, .linkedin{
+    color:white;
+    padding: 30px;
+}

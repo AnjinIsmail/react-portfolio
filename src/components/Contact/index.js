@@ -38,17 +38,17 @@ function ContactForm() {
 
     return (
         <section>
+            <form className="ui huge form" onSubmit={handleSubmit}>
             <h1>Contact me</h1>
-            <form onSubmit={handleSubmit}>
-                <div>
+                <div className="field">
                     <label htmlFor="name"> Name:</label>
                     <input className="form-control" type="text" defaultValue={name} onChange={handleChange} name="name" />
                 </div>
-                <div>
+                <div className="field">
                     <label htmlFor="email">Email address:</label>
                     <input className="form-control" type=" email" defaultValue={email} name="email" onChange={handleChange} />
                 </div>
-                <div>
+                <div className="field">
                     <label htmlFor="message">Message</label>
                     <textarea className="form-control" name="message" defaultValue={message} onChange={handleChange} rows="5" />
                 </div>
@@ -57,10 +57,11 @@ function ContactForm() {
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-
-                <button type="submit">Submit</button>
+                
+                <button type="ui submit button">Submit</button>
             </form>
         </section >
+        
     );
 
 

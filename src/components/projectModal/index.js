@@ -12,9 +12,9 @@ const modalProject = ({ onClose, currentProject }) => {
                 <p>
                     {description}
                     <br />
-                   Github Repo: {github}
+                   Github Repo: <a href={github}> {github} </a>
                     <br />
-                        Deployed App: {deployed}
+                        Deployed App: <a href ={deployed}> {deployed} </a>
                 </p>
                 <button onClick={onClose} type="button"> Close this modal</button>
             </div>

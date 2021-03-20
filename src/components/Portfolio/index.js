@@ -47,7 +47,7 @@ const Portfolio = ({ name }) => {
         {
             name: 'SuperHeroSmash',
             description: 'A social/ entertainment application based around Super Heros. Vote for your favorite superhero in each matchup. The winner gets a vote added to their total and stays to battle the next opponent. When you are done in the Battleground, see how your choices are doing on the Leaderboard or head to the Discussion area to make your case!',
-            github: "https://github.com/melissabarrerafarias/project-3",
+            github: "https://github.com/melissabarrerafarias/superherosmash",
             deployed: "https://superherosmash.herokuapp.com/"
         }
 
@@ -60,6 +60,7 @@ const Portfolio = ({ name }) => {
 
     return (
         <div>
+
             {isModalOpen && <Modal onClose={toggleModal} currentProject={currentProject} />}
             <div className="flex-row">
 
@@ -73,6 +74,7 @@ const Portfolio = ({ name }) => {
                     />
                 ))}
             </div>
+            
         </div>
     )
 }
